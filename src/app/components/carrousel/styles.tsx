@@ -32,7 +32,7 @@ export const CarouselButton = styled.button`
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: ${(props) => props.theme.colors.background};
+  background-color: transparent;
   border: none;
   font-size: 24px;
   padding: 10px;
@@ -40,7 +40,7 @@ export const CarouselButton = styled.button`
   z-index: 1;
 
   &:hover {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: ${(props) => props.theme.colors.secondary};
   }
 
   &.prev {

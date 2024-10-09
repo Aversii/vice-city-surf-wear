@@ -2,16 +2,16 @@ import { ITheme } from "./iTheme";
 
 export const darkTheme: ITheme = {
   colors: {
-    primary: "#D147A3",
-    background: "#1A2238",
-    text: "#EAEAEA",
-    subText: "#A9A9A9",
-    accent: "#00A0C6",
-    secondary: "#C71585",
+    primary: "#012C4C", // Azul forte presente no border-top do footer
+    background: "#1b1b1b", // Fundo escuro do footer
+    text: "#fff", // Texto branco do footer
+    subText: "#ffcc00", // Subtexto amarelo usado nos títulos dos links
+    accent: "#ffcc00", // Mesma cor usada no hover dos links
+    secondary: "#D147A3", // Mantido o secundário original
     error: "#FF4C4C",
     success: "#4CAF50",
     warning: "#FFC107",
-    gradient: "linear-gradient(90deg, #D5006D, #FF3C00)",     
+    gradient: "linear-gradient(90deg, #012C4C, #00455E, #006571, #008486, #002C3C)",
   },
   fonts: {
     body: "'Roboto', sans-serif",
@@ -25,8 +25,8 @@ export const darkTheme: ITheme = {
   },
   borders: {
     radius: "8px",
-    width: "1px",
-    color: "#333333",
+    width: "2px", // Para combinar com o border-top do footer
+    color: "#007bff", // Azul do footer
   },
   shadows: {
     small: "0px 1px 3px rgba(0, 0, 0, 0.5)",
@@ -55,9 +55,10 @@ export const darkTheme: ITheme = {
   },
 };
 
+
 export const lightTheme: ITheme = {
   colors: {
-    primary: "#FF6EC7",
+    primary: "#cfe4e6",
     background: "#FF8C00",
     text: "#333333",
     subText: "#666666",
@@ -66,7 +67,7 @@ export const lightTheme: ITheme = {
     error: "#FF4C4C",
     success: "#4CAF50",
     warning: "#FFC107",
-    gradient: "linear-gradient(90deg, #4D4D4D, #1A1A1A)",
+    gradient: "linear-gradient(90deg, #2847d3, #3e6ee3, #66a1e8, #bbe3be)"
   },
   fonts: {
     body: "'Roboto', sans-serif",

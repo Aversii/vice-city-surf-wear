@@ -13,16 +13,15 @@ export const Header: React.FC<HeaderProps> = ({ toggleTheme, isDarkMode }) => {
   return (
     <HeaderContainer>
       <LogoContainer>
-        <Title>
-            Vice City Surf Wear
-        </Title>
+
       </LogoContainer>
       <MenuContainer>
         <nav>
           <ul style={{ display: 'flex', listStyle: 'none', gap: '20px' }}>
-            <li>Masculino</li>
-            <li>Feminino</li>
-            <li>Infantil</li>
+            <li>Pranchas</li>
+            <li>Acessórios</li>
+            <li>Skates</li>
+            <li>Trajes</li>
           </ul>
         </nav>
       </MenuContainer>
