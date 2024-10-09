@@ -30,7 +30,7 @@ export const OfferCard = styled.div`
   padding: 10px;
   text-align: center;
   box-sizing: border-box;
-  background-color: /* ${({ theme }) => theme.colors.primary} */ white;
+  background-color: ${(props) => props.theme.colors.primary};
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   &:hover {
@@ -69,7 +69,7 @@ export const Wave = styled.div`
   left: 0;
   top: 0;
   margin-left: -50%;
-  margin-top: -60%;
+  margin-top: -25%;
   background: linear-gradient(720deg, #87ceeb, #00bfff 60%, #1e90ff);
   border-radius: 40%;
   animation: ${waveAnimation} 55s infinite linear;
@@ -88,16 +88,7 @@ export const Wave = styled.div`
     animation-duration: 45s;
   }
 `;
-export const InfoTop = styled.div`
-  text-align: center;
-  font-size: 20px;
-  position: absolute;
-  top: 5.6em;
-  left: 0;
-  right: 0;
-  color: rgb(255, 255, 255);
-  font-weight: 600;
-`;
+
 
 export const Name = styled.div`
   font-size: 14px;
