@@ -12,7 +12,7 @@ export const Switch = styled.div<{ isDarkMode: boolean }>`
     width: 60px;
     height: 30px;
     background-color: ${({ isDarkMode, theme }) => 
-        isDarkMode ? theme.colors.background : theme.colors.secondary};
+        isDarkMode ? theme.colors.background : theme.colors.accent};
     border-radius: 30px;
     transition: background-color 0.5s ease;
 `;
