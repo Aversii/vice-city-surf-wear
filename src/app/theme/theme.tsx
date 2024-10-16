@@ -58,10 +58,10 @@ export const darkTheme: ITheme = {
 
 export const lightTheme: ITheme = {
   colors: {
-    primary: "#cfe4e6",
+    primary: "#012C4C",
     background: "#FF8C00",
-    text: "#333333",
-    subText: "#666666",
+    text: "#ddd",
+    subText: "#ccc",
     accent: "#7DF9FF",
     secondary: "#FFA07A",
     error: "#FF4C4C",
@@ -71,7 +71,7 @@ export const lightTheme: ITheme = {
   },
   fonts: {
     body: "'Roboto', sans-serif",
-    heading: "'Poppins', sans-serif",
+    heading: "'Roboto', sans-serif",
     monospace: "'Courier New', monospace",
   },
   spacing: {

@@ -84,7 +84,7 @@ export const OffersCarousel: React.FC = () => {
 
   return (
     <CarouselContainer>
-      <Title>OFERTAS</Title>
+      <Title>Ofertas</Title>
       <Slider {...settings}>
         {offers.map((offer) => (
           <Slide key={offer.id}>

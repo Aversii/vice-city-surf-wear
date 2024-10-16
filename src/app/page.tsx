@@ -9,6 +9,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Footer } from "./components/footer/footer";
 import { OffersCarousel } from "./components/offerCarousel/offerCarousel";
+import SellingItems from "./components/sellingItems/sellingItems";
 
 
 export default function Home() {
@@ -30,6 +31,10 @@ export default function Home() {
         <OffersCarousel>
           
         </OffersCarousel>
+
+        <SellingItems>
+
+        </SellingItems>
         <Footer>
         
         </Footer>

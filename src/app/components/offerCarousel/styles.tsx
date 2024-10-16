@@ -19,7 +19,7 @@ export const CarouselContainer = styled.div`
 `;
 
 export const OfferCard = styled.div`
-  margin: 100px auto;
+  margin: 30px auto;
   background: transparent;
   box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
   position: relative;
@@ -63,13 +63,13 @@ export const Slide = styled.div`
 
 export const Wave = styled.div`
   position: absolute;
-  width: 540px;
-  height: 700px;
+  width: 500px;
+  height: 640px;
   opacity: 0.6;
   left: 0;
   top: 0;
   margin-left: -50%;
-  margin-top: -25%;
+  margin-top: -3%;
   background: linear-gradient(720deg, #87ceeb, #00bfff 60%, #1e90ff);
   border-radius: 40%;
   animation: ${waveAnimation} 55s infinite linear;
@@ -124,5 +124,11 @@ export const StyledSpan = styled.span`
 `;
 
 export const Title = styled.h1`
-  padding-top: ${({ theme }) => theme.spacing.large};
-`;
+  font-family: ${({ theme }) => theme.fonts.heading};
+  font-size: ${({ theme }) => theme.typography.h1.fontSize};
+  font-weight: ${({ theme }) => theme.typography.h1.fontWeight};
+  color: ${({ theme }) => theme.colors.text};
+  text-align: center;
+  padding-top: 60px;
+  `
+;

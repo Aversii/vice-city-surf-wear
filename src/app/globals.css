@@ -40,3 +40,11 @@ a {
     color-scheme: dark;
   }
 }
+
+@font-face {
+  font-family: 'Ruthligos'; /* Nome da fonte */
+  src: url('./fonts/Ruthligos.woff') format('woff'); /* Caminho para a fonte */
+  font-weight: normal;
+  font-style: normal;
+}
+
